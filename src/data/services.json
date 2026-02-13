@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "title": "Baby Care",
+    "slug": "baby-care",
+    "charge_per_hour": 10,
+    "charge_per_day": 80,
+    "short": "Professional babysitting for infants and toddlers with trained caregivers.",
+    "description": "Our baby care service provides experienced caregivers who specialize in infant and toddler care. Services include feeding, diaper changing, bathing, playtime activities, sleep routines, and developmental activities. All caregivers are background-checked, trained in infant CPR, and passionate about child development. Perfect for working parents, special occasions, or when you need a helping hand.",
+    "image": "/assets/hero.png"
+  },
+  {
+    "_id": "2",
+    "title": "Elderly Care",
+    "slug": "elderly-care",
+    "charge_per_hour": 12,
+    "charge_per_day": 90,
+    "short": "Compassionate companion and assistance for elderly family members.",
+    "description": "Our elderly care service offers professional caregivers who provide companionship, medication reminders, mobility assistance, meal preparation, and light household help. We understand the unique needs of seniors and ensure they receive dignified, respectful care in the comfort of their home. Caregivers are trained in elderly care best practices and emergency response.",
+    "image": "/assets/hero.png"
+  },
+  {
+    "_id": "3",
+    "title": "Sick Care",
+    "slug": "sick-care",
+    "charge_per_hour": 15,
+    "charge_per_day": 110,
+    "short": "Specialized care for sick or recovering family members at home.",
+    "description": "Our sick care service provides skilled caregivers to assist with recovery and daily needs during illness. Services include medication management, vital signs monitoring, wound care assistance, comfort care, meal preparation, and coordination with healthcare providers. Ideal for post-surgery recovery, chronic illness management, or temporary illness care. All caregivers have medical care training.",
+    "image": "/assets/hero.png"
+  }
+]

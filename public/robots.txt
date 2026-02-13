@@ -1,0 +1,19 @@
+# robots.txt for Hero Kidz
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+
+# Disallow authentication pages from indexing
+Disallow: /login
+Disallow: /register
+
+# Sitemap location
+Sitemap: https://care-xyz.vercel.app/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

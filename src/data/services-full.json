@@ -1,0 +1,257 @@
+[
+  {
+    "_id": "698f230c250d222ac4c367f1",
+    "title": "Baby Care Service",
+    "bangla": "শিশু যত্ন সেবা",
+    "slug": "baby-care",
+    "image": "https://i.ibb.co.com/p6Q0fchX/81a72-DDFc-KL-AC-SL1500.jpg",
+    "charge_per_hour": 10,
+    "charge_per_day": 80,
+    "discount": 10,
+    "short": "Professional babysitting for infants and toddlers with trained caregivers.",
+    "description": "Our Baby Care Service provides experienced caregivers who specialize in infant and toddler care. Services include feeding, diaper changing, bathing, playtime activities, sleep routines, and developmental activities. All caregivers are background-checked, trained in infant CPR, and passionate about child development. Perfect for working parents, special occasions, or when you need a helping hand.",
+    "descriptionBangla": "আমাদের শিশু যত্ন সেবা অভিজ্ঞ যত্নশীল প্রদান করে যারা শিশু এবং ছোট বাচ্চাদের যত্নে বিশেষজ্ঞ। সেবাগুলির মধ্যে রয়েছে খাওয়ানো, ডায়াপার পরিবর্তন, গোসল, খেলার কার্যক্রম, ঘুমের রুটিন এবং উন্নয়নমূলক কার্যক্রম।",
+    "qnaArray": [
+      {
+        "question": "What age group is this service for?",
+        "answer": "Our baby care service is suitable for infants (0-12 months) and toddlers (1-3 years).",
+        "questionBangla": "এই সেবা কোন বয়সের জন্য?",
+        "answerBangla": "আমাদের শিশু যত্ন সেবা শিশুদের (০-১২ মাস) এবং ছোট বাচ্চাদের (১-৩ বছর) জন্য উপযুক্ত।"
+      },
+      {
+        "question": "Are caregivers certified?",
+        "answer": "Yes, all our caregivers are background-checked, trained in infant CPR, and have childcare certifications.",
+        "questionBangla": "যত্নশীলরা কি সার্টিফাইড?",
+        "answerBangla": "হ্যাঁ, আমাদের সমস্ত যত্নশীল ব্যাকগ্রাউন্ড-চেক করা, শিশু সিপিআর প্রশিক্ষিত এবং শিশু যত্ন সার্টিফিকেশন আছে।"
+      }
+    ],
+    "reviews": 45,
+    "sold": 120,
+    "ratings": 4.8,
+    "infoArray": [
+      "Feeding and diaper changing assistance",
+      "Playtime and developmental activities",
+      "Sleep routine management",
+      "Background-checked and CPR certified caregivers"
+    ],
+    "infoArrayBangla": [
+      "খাওয়ানো এবং ডায়াপার পরিবর্তন সহায়তা",
+      "খেলার সময় এবং উন্নয়নমূলক কার্যক্রম",
+      "ঘুমের রুটিন ব্যবস্থাপনা",
+      "ব্যাকগ্রাউন্ড-চেক এবং সিপিআর সার্টিফাইড যত্নশীল"
+    ],
+    "features": [
+      "Infant CPR certified",
+      "Background verified",
+      "Flexible scheduling",
+      "Emergency trained"
+    ],
+    "ageGroup": "0-3 years",
+    "availability": "24/7",
+    "minBookingHours": 2
+  },
+  {
+    "_id": "698f230c250d222ac4c367f2",
+    "title": "Elderly Care Service",
+    "bangla": "বয়স্ক যত্ন সেবা",
+    "slug": "elderly-care",
+    "image": "https://i.ibb.co.com/p6Q0fchX/81a72-DDFc-KL-AC-SL1500.jpg",
+    "charge_per_hour": 12,
+    "charge_per_day": 90,
+    "discount": 15,
+    "short": "Compassionate companion and assistance for elderly family members.",
+    "description": "Our Elderly Care Service offers professional caregivers who provide companionship, medication reminders, mobility assistance, meal preparation, and light household help. We understand the unique needs of seniors and ensure they receive dignified, respectful care in the comfort of their home. Caregivers are trained in elderly care best practices and emergency response.",
+    "descriptionBangla": "আমাদের বয়স্ক যত্ন সেবা পেশাদার যত্নশীল প্রদান করে যারা সঙ্গ, ওষুধের অনুস্মারক, গতিশীলতা সহায়তা, খাবার প্রস্তুতি এবং হালকা গৃহস্থালী সাহায্য প্রদান করে।",
+    "qnaArray": [
+      {
+        "question": "What services are included?",
+        "answer": "Companionship, medication reminders, mobility assistance, meal preparation, light housekeeping, and personal care assistance.",
+        "questionBangla": "কোন সেবাগুলি অন্তর্ভুক্ত?",
+        "answerBangla": "সঙ্গ, ওষুধের অনুস্মারক, গতিশীলতা সহায়তা, খাবার প্রস্তুতি, হালকা গৃহস্থালী এবং ব্যক্তিগত যত্ন সহায়তা।"
+      },
+      {
+        "question": "Can caregivers help with medical needs?",
+        "answer": "Our caregivers can assist with medication reminders and basic health monitoring, but are not medical professionals. We coordinate with healthcare providers as needed.",
+        "questionBangla": "যত্নশীলরা কি চিকিৎসা প্রয়োজনে সাহায্য করতে পারে?",
+        "answerBangla": "আমাদের যত্নশীলরা ওষুধের অনুস্মারক এবং মৌলিক স্বাস্থ্য পর্যবেক্ষণে সহায়তা করতে পারে, কিন্তু তারা চিকিৎসা পেশাদার নয়।"
+      }
+    ],
+    "reviews": 38,
+    "sold": 95,
+    "ratings": 4.7,
+    "infoArray": [
+      "Companionship and emotional support",
+      "Medication reminders and health monitoring",
+      "Mobility and daily living assistance",
+      "Meal preparation and light housekeeping"
+    ],
+    "infoArrayBangla": [
+      "সঙ্গ এবং মানসিক সমর্থন",
+      "ওষুধের অনুস্মারক এবং স্বাস্থ্য পর্যবেক্ষণ",
+      "গতিশীলতা এবং দৈনন্দিন জীবন সহায়তা",
+      "খাবার প্রস্তুতি এবং হালকা গৃহস্থালী"
+    ],
+    "features": [
+      "Elderly care trained",
+      "Patient and compassionate",
+      "Health monitoring",
+      "Meal preparation"
+    ],
+    "ageGroup": "60+ years",
+    "availability": "24/7",
+    "minBookingHours": 4
+  },
+  {
+    "_id": "698f230c250d222ac4c367f3",
+    "title": "Sick Care Service",
+    "bangla": "অসুস্থ যত্ন সেবা",
+    "slug": "sick-care",
+    "image": "https://i.ibb.co.com/p6Q0fchX/81a72-DDFc-KL-AC-SL1500.jpg",
+    "charge_per_hour": 15,
+    "charge_per_day": 110,
+    "discount": 5,
+    "short": "Specialized care for sick or recovering family members at home.",
+    "description": "Our Sick Care Service provides skilled caregivers to assist with recovery and daily needs during illness. Services include medication management, vital signs monitoring, wound care assistance, comfort care, meal preparation, and coordination with healthcare providers. Ideal for post-surgery recovery, chronic illness management, or temporary illness care. All caregivers have medical care training.",
+    "descriptionBangla": "আমাদের অসুস্থ যত্ন সেবা দক্ষ যত্নশীল প্রদান করে যারা অসুস্থতার সময় পুনরুদ্ধার এবং দৈনন্দিন প্রয়োজনে সহায়তা করে। সেবাগুলির মধ্যে রয়েছে ওষুধ ব্যবস্থাপনা, গুরুত্বপূর্ণ লক্ষণ পর্যবেক্ষণ, ক্ষত যত্ন সহায়তা।",
+    "qnaArray": [
+      {
+        "question": "What conditions do you provide care for?",
+        "answer": "We provide care for post-surgery recovery, chronic illness management, temporary illness, and general patient care. For specialized medical needs, we coordinate with healthcare professionals.",
+        "questionBangla": "আপনি কোন অবস্থার জন্য যত্ন প্রদান করেন?",
+        "answerBangla": "আমরা অস্ত্রোপচার পরবর্তী পুনরুদ্ধার, দীর্ঘস্থায়ী অসুস্থতা ব্যবস্থাপনা, অস্থায়ী অসুস্থতা এবং সাধারণ রোগী যত্নের জন্য যত্ন প্রদান করি।"
+      },
+      {
+        "question": "Are caregivers medically trained?",
+        "answer": "Yes, our sick care caregivers have medical care training, including vital signs monitoring, medication management, and basic wound care. They work under healthcare provider guidance.",
+        "questionBangla": "যত্নশীলরা কি চিকিৎসাগতভাবে প্রশিক্ষিত?",
+        "answerBangla": "হ্যাঁ, আমাদের অসুস্থ যত্ন যত্নশীলদের চিকিৎসা যত্ন প্রশিক্ষণ আছে, যার মধ্যে গুরুত্বপূর্ণ লক্ষণ পর্যবেক্ষণ, ওষুধ ব্যবস্থাপনা এবং মৌলিক ক্ষত যত্ন রয়েছে।"
+      }
+    ],
+    "reviews": 29,
+    "sold": 67,
+    "ratings": 4.9,
+    "infoArray": [
+      "Medication management and reminders",
+      "Vital signs monitoring",
+      "Wound care assistance",
+      "Post-surgery recovery support"
+    ],
+    "infoArrayBangla": [
+      "ওষুধ ব্যবস্থাপনা এবং অনুস্মারক",
+      "গুরুত্বপূর্ণ লক্ষণ পর্যবেক্ষণ",
+      "ক্ষত যত্ন সহায়তা",
+      "অস্ত্রোপচার পরবর্তী পুনরুদ্ধার সমর্থন"
+    ],
+    "features": [
+      "Medical care trained",
+      "Vital signs monitoring",
+      "Medication management",
+      "Healthcare coordination"
+    ],
+    "ageGroup": "All ages",
+    "availability": "24/7",
+    "minBookingHours": 4
+  },
+  {
+    "_id": "698f230c250d222ac4c367f4",
+    "title": "Special Needs Care",
+    "bangla": "বিশেষ চাহিদা যত্ন",
+    "slug": "special-needs-care",
+    "image": "https://i.ibb.co.com/p6Q0fchX/81a72-DDFc-KL-AC-SL1500.jpg",
+    "charge_per_hour": 18,
+    "charge_per_day": 130,
+    "discount": 0,
+    "short": "Specialized care for individuals with special needs and disabilities.",
+    "description": "Our Special Needs Care Service provides trained caregivers who understand the unique requirements of individuals with physical, developmental, or cognitive disabilities. Services include personal care assistance, therapy support, behavioral management, communication assistance, and daily living skills support. Caregivers are trained in special needs care and work with families to create personalized care plans.",
+    "descriptionBangla": "আমাদের বিশেষ চাহিদা যত্ন সেবা প্রশিক্ষিত যত্নশীল প্রদান করে যারা শারীরিক, উন্নয়নমূলক বা জ্ঞানীয় প্রতিবন্ধী ব্যক্তিদের অনন্য প্রয়োজনীয়তা বোঝে।",
+    "qnaArray": [
+      {
+        "question": "What types of special needs do you support?",
+        "answer": "We support individuals with autism, Down syndrome, cerebral palsy, developmental delays, physical disabilities, and other special needs. Each care plan is personalized.",
+        "questionBangla": "আপনি কোন ধরনের বিশেষ চাহিদা সমর্থন করেন?",
+        "answerBangla": "আমরা অটিজম, ডাউন সিনড্রোম, সেরিব্রাল পালসি, উন্নয়নমূলক বিলম্ব, শারীরিক প্রতিবন্ধকতা এবং অন্যান্য বিশেষ চাহিদা সহ ব্যক্তিদের সমর্থন করি।"
+      },
+      {
+        "question": "Do caregivers have special training?",
+        "answer": "Yes, all our special needs caregivers have specialized training in disability care, behavioral management, and communication techniques specific to various conditions.",
+        "questionBangla": "যত্নশীলদের কি বিশেষ প্রশিক্ষণ আছে?",
+        "answerBangla": "হ্যাঁ, আমাদের সমস্ত বিশেষ চাহিদা যত্নশীলদের প্রতিবন্ধী যত্ন, আচরণগত ব্যবস্থাপনা এবং বিভিন্ন অবস্থার জন্য নির্দিষ্ট যোগাযোগ কৌশলে বিশেষ প্রশিক্ষণ আছে।"
+      }
+    ],
+    "reviews": 22,
+    "sold": 48,
+    "ratings": 4.9,
+    "infoArray": [
+      "Personal care and daily living assistance",
+      "Therapy and behavioral support",
+      "Communication assistance",
+      "Specialized training for various conditions"
+    ],
+    "infoArrayBangla": [
+      "ব্যক্তিগত যত্ন এবং দৈনন্দিন জীবন সহায়তা",
+      "থেরাপি এবং আচরণগত সমর্থন",
+      "যোগাযোগ সহায়তা",
+      "বিভিন্ন অবস্থার জন্য বিশেষ প্রশিক্ষণ"
+    ],
+    "features": [
+      "Special needs certified",
+      "Behavioral management",
+      "Therapy support",
+      "Personalized care plans"
+    ],
+    "ageGroup": "All ages",
+    "availability": "24/7",
+    "minBookingHours": 4
+  },
+  {
+    "_id": "698f230c250d222ac4c367f5",
+    "title": "Overnight Care Service",
+    "bangla": "রাতের যত্ন সেবা",
+    "slug": "overnight-care",
+    "image": "https://i.ibb.co.com/p6Q0fchX/81a72-DDFc-KL-AC-SL1500.jpg",
+    "charge_per_hour": 14,
+    "charge_per_day": 100,
+    "discount": 20,
+    "short": "Professional overnight care for babies, elderly, or patients.",
+    "description": "Our Overnight Care Service provides experienced caregivers who stay through the night to ensure safety and comfort. Perfect for new parents needing sleep, families with elderly members requiring night supervision, or patients needing overnight monitoring. Caregivers handle night feedings, medication schedules, bathroom assistance, and emergency response.",
+    "descriptionBangla": "আমাদের রাতের যত্ন সেবা অভিজ্ঞ যত্নশীল প্রদান করে যারা নিরাপত্তা এবং আরাম নিশ্চিত করতে রাতভর থাকে। নতুন পিতামাতার জন্য নিখুঁত যাদের ঘুমের প্রয়োজন।",
+    "qnaArray": [
+      {
+        "question": "What hours does overnight care cover?",
+        "answer": "Overnight care typically covers 8-12 hours during night time (8 PM - 8 AM). Custom schedules can be arranged based on your needs.",
+        "questionBangla": "রাতের যত্ন কোন ঘন্টা কভার করে?",
+        "answerBangla": "রাতের যত্ন সাধারণত রাতের সময় ৮-১২ ঘন্টা কভার করে (রাত ৮টা - সকাল ৮টা)। আপনার প্রয়োজন অনুযায়ী কাস্টম সময়সূচী ব্যবস্থা করা যেতে পারে।"
+      },
+      {
+        "question": "Will the caregiver stay awake all night?",
+        "answer": "Caregivers remain alert and responsive throughout the night. They may rest during quiet periods but are trained to wake for any needs or emergencies.",
+        "questionBangla": "যত্নশীল কি সারা রাত জেগে থাকবে?",
+        "answerBangla": "যত্নশীলরা সারা রাত সতর্ক এবং প্রতিক্রিয়াশীল থাকে। তারা শান্ত সময়ে বিশ্রাম নিতে পারে কিন্তু যেকোনো প্রয়োজন বা জরুরী অবস্থার জন্য জাগতে প্রশিক্ষিত।"
+      }
+    ],
+    "reviews": 34,
+    "sold": 78,
+    "ratings": 4.8,
+    "infoArray": [
+      "8-12 hour overnight coverage",
+      "Night feeding and medication assistance",
+      "Emergency response trained",
+      "Bathroom and mobility assistance"
+    ],
+    "infoArrayBangla": [
+      "৮-১২ ঘন্টা রাতের কভারেজ",
+      "রাতের খাওয়ানো এবং ওষুধ সহায়তা",
+      "জরুরী প্রতিক্রিয়া প্রশিক্ষিত",
+      "বাথরুম এবং গতিশীলতা সহায়তা"
+    ],
+    "features": [
+      "Night shift trained",
+      "Emergency certified",
+      "Quiet and respectful",
+      "Flexible hours"
+    ],
+    "ageGroup": "All ages",
+    "availability": "Night shifts only",
+    "minBookingHours": 8
+  }
+]
