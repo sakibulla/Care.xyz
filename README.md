@@ -410,7 +410,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact & Support
 
 - **Live Demo**: [https://carexyz-six.vercel.app/](https://carexyz-six.vercel.app/)
-- **Email**: support@care.xyz
+- **Email**: hasanfahmidul2002@gmail.com
 - **Issues**: [GitHub Issues](https://github.com/yourusername/care-xyz/issues)
 
 ---
