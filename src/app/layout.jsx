@@ -20,14 +20,14 @@ export const metadata = {
   metadataBase: new URL("https://care-xyz.vercel.app"),
 
   title: {
-    default: "Hero Kidz | Professional Caregiving Services - Baby, Elderly & Medical Care",
-    template: "%s | Hero Kidz",
+    default: "Care.xyz | Professional Caregiving Services - Baby, Elderly & Medical Care",
+    template: "%s | Care.xyz",
   },
 
   description:
-    "Hero Kidz provides trusted, professional caregiving services for babies, elderly, and sick family members. Book certified caregivers for hourly or daily care. Available 24/7 with trained professionals.",
+    "Care.xyz provides trusted, professional caregiving services for babies, elderly, and sick family members. Book certified caregivers for hourly or daily care. Available 24/7 with trained professionals.",
 
-  applicationName: "Hero Kidz",
+  applicationName: "Care.xyz",
 
   keywords: [
     "baby sitting service",
@@ -50,9 +50,9 @@ export const metadata = {
     "respite care",
   ],
 
-  authors: [{ name: "Hero Kidz Team", url: "https://care-xyz.vercel.app" }],
-  creator: "Hero Kidz",
-  publisher: "Hero Kidz",
+  authors: [{ name: "Care.xyz Team", url: "https://care-xyz.vercel.app" }],
+  creator: "Care.xyz",
+  publisher: "Care.xyz",
 
   formatDetection: {
     email: false,
@@ -75,8 +75,13 @@ export const metadata = {
 
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/assets/logo.png", sizes: "any" },
     ],
+    apple: [
+      { url: "/apple-icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: ["/icon.svg"],
   },
 
   manifest: "/site.webmanifest",
@@ -85,8 +90,8 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://care-xyz.vercel.app",
-    siteName: "Hero Kidz",
-    title: "Hero Kidz | Professional Caregiving Services",
+    siteName: "Care.xyz",
+    title: "Care.xyz | Professional Caregiving Services",
     description:
       "Trusted caregiving services for your loved ones. Book trained professionals for baby care, elderly care, and medical care. Available 24/7.",
     images: [
@@ -94,7 +99,7 @@ export const metadata = {
         url: "/assets/hero.png",
         width: 1200,
         height: 630,
-        alt: "Hero Kidz - Professional Caregiving Services",
+        alt: "Care.xyz - Professional Caregiving Services",
         type: "image/png",
       },
     ],
@@ -102,11 +107,11 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Hero Kidz | Professional Caregiving Services",
+    title: "Care.xyz | Professional Caregiving Services",
     description:
       "Trusted caregiving services for babies, elderly, and sick family members. Book certified professionals today.",
     images: ["/assets/hero.png"],
-    creator: "@herokidz",
+    creator: "@carexyz",
   },
 
   alternates: {
@@ -125,7 +130,7 @@ export const metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
-    "apple-mobile-web-app-title": "Hero Kidz",
+    "apple-mobile-web-app-title": "Care.xyz",
   },
 };
 
@@ -133,7 +138,7 @@ export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Hero Kidz",
+    name: "Care.xyz",
     description: "Professional caregiving services for babies, elderly, and sick family members",
     url: "https://care-xyz.vercel.app",
     logo: "https://care-xyz.vercel.app/assets/logo.png",
@@ -145,9 +150,9 @@ export default function RootLayout({ children }) {
       areaServed: "US",
     },
     sameAs: [
-      "https://facebook.com/herokidz",
-      "https://twitter.com/herokidz",
-      "https://instagram.com/herokidz",
+      "https://facebook.com/carexyz",
+      "https://twitter.com/carexyz",
+      "https://instagram.com/carexyz",
     ],
     aggregateRating: {
       "@type": "AggregateRating",

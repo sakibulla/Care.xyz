@@ -4,6 +4,11 @@ import { redirect } from "next/navigation";
 import BookingsList from "@/components/booking/BookingsList";
 import { collections, dbConnect } from "@/lib/dbConnect";
 
+export const metadata = {
+  title: "My Bookings - Care.xyz",
+  description: "View and manage your care service bookings",
+};
+
 export default async function MyBookingsPage() {
   const session = await getServerSession(authOptions);
   if (!session) {
@@ -22,12 +27,32 @@ export default async function MyBookingsPage() {
       .sort({ createdAt: -1 })
       .toArray();
     
-    // Convert MongoDB documents to plain objects
-    bookings = result.map(booking => ({
-      ...booking,
-      _id: booking._id.toString(),
-      createdAt: booking.createdAt?.toISOString() || new Date().toISOString(),
-    }));
+    // Convert MongoDB documents to plain objects with proper serialization
+    bookings = result.map(booking => {
+      // Create a plain object with only serializable data
+      const serialized = {
+        _id: booking._id.toString(),
+        serviceId: booking.serviceId?.toString() || '',
+        serviceTitle: booking.serviceTitle || '',
+        durationType: booking.durationType || 'hour',
+        duration: Number(booking.duration) || 0,
+        rate: Number(booking.rate) || 0,
+        total: Number(booking.total) || 0,
+        location: booking.location ? {
+          division: booking.location.division || '',
+          district: booking.location.district || '',
+          city: booking.location.city || '',
+          area: booking.location.area || '',
+          address: booking.location.address || '',
+        } : {},
+        userEmail: booking.userEmail || '',
+        userName: booking.userName || '',
+        contact: booking.contact || '',
+        status: booking.status || 'Pending',
+        createdAt: booking.createdAt ? new Date(booking.createdAt).toISOString() : new Date().toISOString(),
+      };
+      return serialized;
+    });
   } catch (error) {
     console.error("Error fetching bookings:", error);
     // Return empty array on error - page will still render

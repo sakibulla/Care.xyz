@@ -40,7 +40,7 @@ const HowItWorks = () => {
           How It <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Works</span>
         </h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-          Getting started with Hero Kidz is simple and straightforward
+          Getting started with Care.xyz is simple and straightforward
         </p>
       </div>
 

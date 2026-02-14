@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Caregiving Tips & Resources",
-  description: "Expert advice and insights on baby care, elderly care, and professional caregiving services from Hero Kidz.",
+  description: "Expert advice and insights on baby care, elderly care, and professional caregiving services from Care.xyz.",
 };
 
 const blogPosts = [

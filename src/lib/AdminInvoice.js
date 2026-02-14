@@ -91,7 +91,7 @@ export const adminOrderNotificationTemplate = ({
           <tr>
             <td align="center" style="padding-top:20px; color:#777;">
               <p style="font-size:12px;">
-                This email was automatically generated from <strong>Hero Kidz</strong> system.
+                This email was automatically generated from <strong>Care.xyz</strong> system.
               </p>
             </td>
           </tr>

@@ -68,7 +68,7 @@ const OurPromise = () => {
           Ready to Experience the Difference?
         </h3>
         <p className="text-gray-600 mb-6 max-w-xl mx-auto">
-          Join hundreds of families who trust Hero Kidz for their caregiving needs
+          Join hundreds of families who trust Care.xyz for their caregiving needs
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="/services" className="btn btn-primary btn-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all">

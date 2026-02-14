@@ -33,7 +33,7 @@ const About = () => {
     <section className="py-16">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold mb-4">
-          Why Choose <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Hero Kidz?</span>
+          Why Choose <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Care.xyz?</span>
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg">
           We connect families with trusted, professional caregivers who provide 

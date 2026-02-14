@@ -9,7 +9,7 @@ const Footer = () => {
         <aside>
           <Logo></Logo>
           <p className="mt-2 text-gray-300">
-            Hero Kidz - Professional Caregiving Services
+            Care.xyz - Professional Caregiving Services
             <br />
             <span className="text-primary font-semibold">Trusted care for your loved ones since 2024</span>
           </p>

@@ -1,17 +1,17 @@
 {
-  "name": "Hero Kidz - Professional Caregiving Services",
-  "short_name": "Hero Kidz",
+  "name": "Care.xyz - Professional Caregiving Services",
+  "short_name": "Care.xyz",
   "description": "Professional caregiving services for babies, elderly, and sick family members",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3b82f6",
+  "theme_color": "#06b6d4",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     },
     {
       "src": "/assets/logo.png",

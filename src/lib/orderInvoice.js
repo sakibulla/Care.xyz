@@ -52,7 +52,7 @@ export const orderInvoiceTemplate = ({ orderId, items, totalPrice }) => {
           <!-- Footer -->
           <tr>
             <td align="center" style="padding-top:20px; color:#777;">
-              <p>Thank you for shopping with <strong>Hero Kidz</strong> ❤️</p>
+              <p>Thank you for shopping with <strong>Care.xyz</strong> ❤️</p>
               <p style="font-size:12px;">This is an automated email. Please do not reply.</p>
             </td>
           </tr>

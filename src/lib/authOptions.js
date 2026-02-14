@@ -2,7 +2,12 @@ import { loginUser } from "@/actions/server/auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
 import { collections, dbConnect } from "./dbConnect";
+
 export const authOptions = {
+  pages: {
+    signIn: '/login',
+    error: '/login',
+  },
   providers: [
     CredentialsProvider({
       name: "Credentials",
