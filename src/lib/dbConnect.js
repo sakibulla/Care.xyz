@@ -19,20 +19,7 @@ let client;
 let clientPromise;
 
 if (!uri) {
-  console.warn("⚠️  MongoDB URI not found in environment variables");
-  clientPromise = Promise.resolve({
-    db: () => ({
-      collection: () => ({
-        find: () => ({ toArray: async () => [] }),
-        findOne: async () => null,
-        insertOne: async () => ({ acknowledged: false }),
-        insertMany: async () => ({ acknowledged: false }),
-        updateOne: async () => ({ modifiedCount: 0 }),
-        deleteOne: async () => ({ deletedCount: 0 }),
-        deleteMany: async () => ({ deletedCount: 0 }),
-      }),
-    }),
-  });
+  throw new Error('MONGODB_URI environment variable is not set');
 } else {
   const options = {
     maxPoolSize: 10,
@@ -41,6 +28,7 @@ if (!uri) {
     connectTimeoutMS: 5000,
     socketTimeoutMS: 30000,
     serverSelectionTimeoutMS: 5000,
+    useUnifiedTopology: true,
   };
 
   if (ServerApiVersion && ServerApiVersion.v1) {
@@ -54,61 +42,18 @@ if (!uri) {
   if (process.env.NODE_ENV === "development") {
     if (!global._mongoClientPromise) {
       client = new MongoClient(uri, options);
-      global._mongoClientPromise = client.connect().catch(err => {
-        console.error("❌ MongoDB connection failed:", err.message);
-        return {
-          db: () => ({
-            collection: () => ({
-              find: () => ({ toArray: async () => [] }),
-              findOne: async () => null,
-              insertOne: async () => ({ acknowledged: false }),
-              insertMany: async () => ({ acknowledged: false }),
-              updateOne: async () => ({ modifiedCount: 0 }),
-              deleteOne: async () => ({ deletedCount: 0 }),
-              deleteMany: async () => ({ deletedCount: 0 }),
-            }),
-          }),
-        };
-      });
+      global._mongoClientPromise = client.connect();
     }
     clientPromise = global._mongoClientPromise;
   } else {
     client = new MongoClient(uri, options);
-    clientPromise = client.connect().catch(err => {
-      console.error("❌ MongoDB connection failed:", err.message);
-      return {
-        db: () => ({
-          collection: () => ({
-            find: () => ({ toArray: async () => [] }),
-            findOne: async () => null,
-            insertOne: async () => ({ acknowledged: false }),
-            insertMany: async () => ({ acknowledged: false }),
-            updateOne: async () => ({ modifiedCount: 0 }),
-            deleteOne: async () => ({ deletedCount: 0 }),
-            deleteMany: async () => ({ deletedCount: 0 }),
-          }),
-        }),
-      };
-    });
+    clientPromise = client.connect();
   }
 }
 
 export const dbConnect = async (cname) => {
-  try {
-    const client = await clientPromise;
-    return client.db(dbname).collection(cname);
-  } catch (error) {
-    console.error("❌ Database connection error:", error.message);
-    return {
-      find: () => ({ toArray: async () => [] }),
-      findOne: async () => null,
-      insertOne: async () => ({ acknowledged: false }),
-      insertMany: async () => ({ acknowledged: false }),
-      updateOne: async () => ({ modifiedCount: 0 }),
-      deleteOne: async () => ({ deletedCount: 0 }),
-      deleteMany: async () => ({ deletedCount: 0 }),
-    };
-  }
+  const client = await clientPromise;
+  return client.db(dbname).collection(cname);
 };
 
 export default clientPromise;

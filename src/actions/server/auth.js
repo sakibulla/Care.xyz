@@ -53,53 +53,51 @@ export const postUser = async (payload) => {
     };
   } catch (error) {
     console.error("Error creating user:", error);
-    return {
-      success: false,
-      acknowledged: false,
-      message: error.message || "Failed to create user",
-    };
+    if (error.code === 11000) {
+      return {
+        success: false,
+        acknowledged: false,
+        message: "User already exists",
+      };
+    }
+    throw error;
   }
 };
 
 export const loginUser = async (payload) => {
-  try {
-    const { email, password } = payload;
-    
-    if (!email || !password) {
-      return null;
-    }
-
-    const usersCollection = await dbConnect(collections.USERS);
-    const user = await usersCollection.findOne({ email });
-    
-    if (!user) {
-      return null;
-    }
-
-    // Check if user has a password (credentials provider)
-    if (!user.password) {
-      console.log("User registered with social login, no password set");
-      return null;
-    }
-
-    const isMatched = await bcrypt.compare(password, user.password);
-    
-    if (isMatched) {
-      return {
-        id: user._id.toString(),
-        provider: user.provider,
-        name: user.name,
-        email: user.email,
-        role: user.role,
-        nid: user.nid || "",
-        contact: user.contact || "",
-        image: user.image || null,
-      };
-    }
-    
-    return null;
-  } catch (error) {
-    console.error("Error logging in user:", error);
+  const { email, password } = payload;
+  
+  if (!email || !password) {
     return null;
   }
+
+  const usersCollection = await dbConnect(collections.USERS);
+  const user = await usersCollection.findOne({ email });
+  
+  if (!user) {
+    return null;
+  }
+
+  // Check if user has a password (credentials provider)
+  if (!user.password) {
+    console.log("User registered with social login, no password set");
+    return null;
+  }
+
+  const isMatched = await bcrypt.compare(password, user.password);
+  
+  if (isMatched) {
+    return {
+      id: user._id.toString(),
+      provider: user.provider,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      nid: user.nid || "",
+      contact: user.contact || "",
+      image: user.image || null,
+    };
+  }
+  
+  return null;
 };

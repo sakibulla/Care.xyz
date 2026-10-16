@@ -7,10 +7,19 @@ export const SocialButtons = () => {
   const params = useSearchParams();
 
   const handleSignIn = async () => {
-    const result = await signIn("google", {
-      // redirect: "false",
-      callbackUrl: params.get("callbackUrl") || "/",
-    });
+    try {
+      const callbackUrl = params.get("callbackUrl") || "/";
+      console.log("Attempting Google signin with callback:", callbackUrl);
+      
+      const result = await signIn("google", {
+        callbackUrl,
+        redirect: true,
+      });
+      
+      console.log("Google signin result:", result);
+    } catch (error) {
+      console.error("Google signin error:", error);
+    }
   };
 
   return (

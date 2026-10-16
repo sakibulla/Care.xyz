@@ -6,24 +6,30 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#FF6B9D",
+        secondary: "#4ECDC4",
+        accent: "#FFD93D",
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
       {
         light: {
-          "primary": "#FF6B9D", // Warm pink - caring and friendly
-          "secondary": "#4ECDC4", // Turquoise - trust and calm
-          "accent": "#FFD93D", // Sunny yellow - joy and energy
+          "primary": "#FF6B9D",
+          "secondary": "#4ECDC4",
+          "accent": "#FFD93D",
           "neutral": "#2D3748",
           "base-100": "#FFFFFF",
-          "base-200": "#FFF5F7", // Soft pink tint
-          "base-300": "#F0F4F8", // Light blue-gray
-          "info": "#6366F1", // Indigo
-          "success": "#10B981", // Green
-          "warning": "#F59E0B", // Amber
-          "error": "#EF4444", // Red
+          "base-200": "#FFF5F7",
+          "base-300": "#F0F4F8",
+          "info": "#6366F1",
+          "success": "#10B981",
+          "warning": "#F59E0B",
+          "error": "#EF4444",
         },
       },
     ],

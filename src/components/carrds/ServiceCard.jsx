@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaClock, FaCalendarAlt, FaArrowRight, FaCheckCircle, FaStar } from "react-icons/fa";
@@ -26,7 +25,7 @@ const ServiceCard = ({ service }) => {
       {/* Image Section */}
       <Link href={linkHref}>
         <figure className="relative overflow-hidden bg-gradient-to-br from-pink-50 via-blue-50 to-yellow-50 h-56">
-          <Image
+          <img
             width={400}
             height={300}
             src={image || "/assets/hero.png"}
